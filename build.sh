@@ -16,8 +16,7 @@ export CROSS_COMPILE=/Volumes/buildbox/sailfish/kernel/TC/aarch64-linux-android-
 export LD_LIBRARY_PATH=$TC_DIR/lib/
 export KBUILD_OUTPUT=$KERNEL_DIR/../out
 
-echo "zip: "$KERNELFINAL", AK: "$AK_DIR", TC: "$TC_DIR, ARCH: $ARCH, CC: 
-$CROSS_COMPILE
+echo "zip: "$KERNELFINAL", AK: "$AK_DIR", TC: "$TC_DIR, ARCH: $ARCH, CC:$CROSS_COMPILE
 sleep 1
 
 # Fun starts here
