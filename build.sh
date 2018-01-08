@@ -12,7 +12,7 @@ DEVICENAME="sailfish"
 KERNELFINAL=$KERNELNAME"_"$DEVICENAME"-"$VERSION"-"$DATE".zip"
 ZIPFILE=$KERNEL_DIR/../$KERNELFINAL
 export ARCH=arm64
-export CROSS_COMPILE=$TC_DIR/bin/aarch64-linux-android-
+export CROSS_COMPILE=/Volumes/buildbox/sailfish/kernel/TC/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 export LD_LIBRARY_PATH=$TC_DIR/lib/
 export KBUILD_OUTPUT=$KERNEL_DIR/../out
 
